@@ -1,37 +1,82 @@
-## Welcome to GitHub Pages
+# WiX Toolset Pills 15mg
 
-You can use the [editor on GitHub](https://github.com/WiX-Toolset-Pills-15mg/WiX-Toolset-Pills-15mg.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+## What is a pill?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Each pill is a projects that addresses a small topic related to WiX Toolset.
 
-### Markdown
+Usually, each repository contains:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- The source code;
+- A tutorial or an article containing explanations;
+- Sample log files;
+- other useful items.
 
-```markdown
-Syntax highlighted code block
+## How to use?
 
-# Header 1
-## Header 2
-### Header 3
+### I) New to WiX Toolset?
 
-- Bulleted
-- List
+Start by taking the repositories in the order suggested by "Learning Path" section.
 
-1. Numbered
-2. List
+1. **Article/Tutorial and Code**
+   - In each repo, open the article (tutorial) and the Visual Studio project and read them side by side.
+   - The article is written in markdown. You may use [Typora](https://typora.io/) or any other markdown editor you like.
+2. **Write the code (from scratch)**
+   - Next I suggest to write the entire installer project from scratch without using copy-paste. This may take somewhere between 15min and 30min.
+   - You may look into the provided source code while writing your own project. Keep it opened in a second Visual Studio instance, but remember, <u>no copy-paste</u> is allowed !!!
+3. **Kata**
+   - Each pill can be exercised as kata. This is a Japanese term from martial arts. A kata is an exercise that is meant to be practiced again and again in order to create the reflexes needed in real combat.
+   - Take the pill that you like and implement it once a day for a few days. For example, you may practice it for a week, then change the exercise and continue. This will help you get familiar with the aspects that are less intuitive.
 
-**Bold** and _Italic_ and `Code` text
+### II) Already have experience with WiX Toolset?
 
-[Link](url) and ![Image](src)
-```
+1. **Playground**
+   - Need a quick playground where you can check some WiX Toolset features? Choose the pill that is the closest to what you need, download the repo and start playing with it.
+2. **Sample Logs**
+   - Each repo contains sample log files that you may easily inspect without the need to compile and run the installer from that repo.
+3. **Tutorials**
+   - Need to learn about some WiX Toolset feature? It may already exist a pill with a tutorial for that feature. Download it and read the tutorial in parallel with the code.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Learning Paths
 
-### Jekyll Themes
+### Basic Path
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/WiX-Toolset-Pills-15mg/WiX-Toolset-Pills-15mg.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- My First Installer (https://github.com/WiX-Toolset-Pills-15mg/My-First-Installer)
+- Installer Properties (**TBD**)
+- Immediate Custom Action (https://github.com/WiX-Toolset-Pills-15mg/Immediate-Custom-Action)
+- Deferred Custom Action (https://github.com/WiX-Toolset-Pills-15mg/Deferred-Custom-Action)
+- Rollback Custom Action (https://github.com/WiX-Toolset-Pills-15mg/Rollback-Custom-Action)
+- Bundle with MSI Packages (https://github.com/WiX-Toolset-Pills-15mg/Bundle-with-MSI-Packages)
+- Bundle with EXE Packages (**TBD**)
 
-### Support or Contact
+### Custom Actions Path
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- Immediate Custom Action (https://github.com/WiX-Toolset-Pills-15mg/Immediate-Custom-Action)
+- Deferred Custom Action (https://github.com/WiX-Toolset-Pills-15mg/Deferred-Custom-Action)
+- Rollback Custom Action (https://github.com/WiX-Toolset-Pills-15mg/Rollback-Custom-Action)
+- Commit Custom Action (https://github.com/WiX-Toolset-Pills-15mg/Commit-Custom-Action)
+- First-Sequence Custom Action (https://github.com/WiX-Toolset-Pills-15mg/First-Sequence-Custom-Action)
+- Second-Sequence Custom Action (**TBD**)
+- Once-Per-Process Custom Action (**TBD**)
+- Impersonate User (https://github.com/WiX-Toolset-Pills-15mg/Impersonate-User)
+
+### Upgrade Path
+
+- Major Upgrade (https://github.com/WiX-Toolset-Pills-15mg/Major-Upgrade)
+- Minor Upgrade (**TBD**)
+- Small Update (**TBD**)
+- Patches (**TBD**)
+
+### Bundle Path
+
+- Bundle with MSI Packages (https://github.com/WiX-Toolset-Pills-15mg/Bundle-with-MSI-Packages)
+- Bundle with EXE Packages (**TBD**)
+- Bundle with Custom GUI (https://github.com/WiX-Toolset-Pills-15mg/Bundle-with-Custom-GUI)
+- Bundle Start Condition (https://github.com/WiX-Toolset-Pills-15mg/Bundle-with-Start-Condition)
+- Upgrade
+  - With MSI packages (**TBD**)
+  - With EXE packages (**TBD**)
+- Repair (**TBD**)
+- Logging with MSI and EXE packages (**TBD**)
+- Bundle Reboot Request
+  - at the end (**TBD**)
+  - after each package (**TBD**)
